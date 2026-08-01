@@ -1,0 +1,6 @@
+{
+  "name": "Loja Sensus - Elegância & Sensualidade",
+  "description": "Landing page premium e vitrine exclusiva de produtos íntimos com atendimento personalizado, discreto e humanizado por Kamila.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
