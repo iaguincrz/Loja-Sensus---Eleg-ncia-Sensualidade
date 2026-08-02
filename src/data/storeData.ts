@@ -76,18 +76,6 @@ export const PRODUCTS: Product[] = [
     isHighlight: false
   },
   {
-    id: 'prod-5',
-    name: 'Sérum Íntimo de Hidratação & Firmeza',
-    category: 'Cosméticos Sensoriais',
-    shortDescription: 'Cuidado diário com ácido hialurônico e extratos botânicos acalmantes.',
-    fullDescription: 'Dermatologicamente e ginecologicamente testado. Promove tonificação, equilíbrio do pH e hidratação contínua da região íntima, prevenindo ressecamentos e aumentando a sensibilidade.',
-    imageUrl: 'https://i.imgur.com/rbWxWxDF.jpeg',
-    badges: ['Ginecologicamente Testado', 'PH Equilibrado', 'Uso Diário'],
-    volumeOrDetails: '30ml com conta-gotas',
-    priceTag: 'Sob consulta com Kamila',
-    isHighlight: false
-  },
-  {
     id: 'prod-6',
     name: 'Acessório Dual Wave Satin Touch',
     category: 'Wellness & Autocuidado',
@@ -132,6 +120,78 @@ export const PRODUCTS: Product[] = [
     imageUrl: 'https://i.imgur.com/UM8oPCJ.jpeg',
     badges: ['Modelagem Exclusiva', 'Renda Macia', 'Alta Confiança'],
     volumeOrDetails: 'Tamanhos do P ao EG',
+    priceTag: 'Sob consulta com Kamila',
+    isHighlight: false
+  },
+  {
+    id: 'prod-10',
+    name: 'Gel Estimulante Pulsar Sensus Soft',
+    category: 'Cosméticos Sensoriais',
+    shortDescription: 'Efeito vibrante e aquecimento gradual para intensificar a sensibilidade do momento.',
+    fullDescription: 'Fórmula exclusiva de alta performance que desperta sensações térmicas e leves pulsações. Ideal para uso individual ou a dois, promovendo estímulos inesquecíveis com máxima segurança.',
+    imageUrl: 'https://i.imgur.com/cLZmDcw.jpeg',
+    badges: ['Efeito Vibrante', 'Aquecimento Suave', 'Testado Dermatologicamente'],
+    volumeOrDetails: 'Frasco Airless 30ml',
+    priceTag: 'Sob consulta com Kamila',
+    isHighlight: true
+  },
+  {
+    id: 'prod-11',
+    name: 'Óleo Corporal de Massagem Sensus Harmony',
+    category: 'Óleos & Massagem',
+    shortDescription: 'Óleo multifuncional com fragrância relaxante de flor de lótus e toque seco aveludado.',
+    fullDescription: 'Proporciona um deslizar perfeito na pele sem deixar sensação pegajosa. Nutre profundamente com óleos de semente de uva e amêndoas doces, ideal para momentos de desconexão e toque carinhoso.',
+    imageUrl: 'https://i.imgur.com/HoJ04fS.jpeg',
+    badges: ['Toque Seco', 'Aroma de Lótus', 'Nutrição Profunda'],
+    volumeOrDetails: 'Frasco 120ml',
+    priceTag: 'Sob consulta com Kamila',
+    isHighlight: false
+  },
+  {
+    id: 'prod-12',
+    name: 'Kit Romance & Sedução Premium',
+    category: 'Kits Especiais',
+    shortDescription: 'Seleção romântica com vela aromática, óleo de massagem e gel sensorial em caixa de presente.',
+    fullDescription: 'A combinação ideal para surpreender a pessoa amada em datas comemorativas ou finais de semana especiais. Tudo pensado nos mínimos detalhes com embalagem elegante e discreta.',
+    imageUrl: 'https://i.imgur.com/QdavVMZ.jpeg',
+    badges: ['Presenteável', 'Edição Limitada', 'Guia de Uso Incluso'],
+    volumeOrDetails: 'Contém 3 Itens Selecionados',
+    priceTag: 'Sob consulta com Kamila',
+    isHighlight: true
+  },
+  {
+    id: 'prod-13',
+    name: 'Estimulador Curvo Velvet Touch',
+    category: 'Wellness & Autocuidado',
+    shortDescription: 'Silicone ergonômico aveludado, 8 frequências de vibração e formato anatômico delicado.',
+    fullDescription: 'Desenvolvido especialmente para se adaptar perfeitamente ao corpo feminino com suavidade. Motor silencioso, resistência à água e recarregável via cabo magnético USB.',
+    imageUrl: 'https://i.imgur.com/NXqdQFE.jpeg',
+    badges: ['Silicone Aveludado', '8 Modos de Vibração', 'Recarregável'],
+    volumeOrDetails: 'USB Magnético | Prova D’água',
+    priceTag: 'Sob consulta com Kamila',
+    isHighlight: false
+  },
+  {
+    id: 'prod-14',
+    name: 'Gel Beijável Sensus Gourmet Frutas Vermelhas',
+    category: 'Cosméticos Sensoriais',
+    shortDescription: 'Sabor inconfundível de morango e framboesa com efeito esquenta e esfria.',
+    fullDescription: 'Elaborado para tornar as carícias íntimas ainda mais saborosas e estimulantes. Fórmula 100% segura para consumo, sem adição de açúcares ou resíduo amargo.',
+    imageUrl: 'https://i.imgur.com/JV0UEwC.jpeg',
+    badges: ['Sabor Gourmet', 'Sem Açúcar', 'Efeito Térmico'],
+    volumeOrDetails: 'Bisnaga 40g',
+    priceTag: 'Sob consulta com Kamila',
+    isHighlight: false
+  },
+  {
+    id: 'prod-15',
+    name: 'Conjunto Lingerie Sensus Luxo Renda Francesa',
+    category: 'Lingerie & Acessórios',
+    shortDescription: 'Renda macia com aro sustentador e detalhes em alças reguláveis para máximo conforto.',
+    fullDescription: 'Valoriza as curvas com elegância e sofisticação. Tecido respirável e antialérgico, perfeito para momentos especiais ou para renovar a autoestima no cotidiano.',
+    imageUrl: 'https://i.imgur.com/sRw4GTZ.jpeg',
+    badges: ['Renda Antialérgica', 'Ajuste Perfeito', 'Coleção Luxo'],
+    volumeOrDetails: 'Tamanhos P, M, G, GG',
     priceTag: 'Sob consulta com Kamila',
     isHighlight: false
   }
